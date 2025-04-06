@@ -10,9 +10,6 @@ int main() {
     std::cout << "SudokuSolver by VaizHD" << std::endl;
     std::clock_t start;
     double duration;
-
-    start = std::clock();
-
     int sudoku[9][9] = {
         {0, 0, 0, 0, 0, 0, 0, 0, 0},
         {0, 0, 0, 0, 0, 0, 0, 0, 0},
